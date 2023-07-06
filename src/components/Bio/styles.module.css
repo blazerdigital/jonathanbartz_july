@@ -1,0 +1,136 @@
+.wrapper {
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  background-image: url(../..//images/background/About_Desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% bottom;
+}
+.image {
+  object-position: center;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+@media only screen and (max-width: 1280px) {
+  .wrapper {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(../..//images/background/About_Desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% bottom;
+  }
+}
+@media only screen and (max-width: 1080px) {
+  .wrapper {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(../..//images/background/About_Desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% bottom;
+  }
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+  .wrapper {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(../..//images/background/About_Mobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% bottom;
+  }
+  .descriptionContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-right: 0%;
+  }
+}
+.descriptionContainer {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.description {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.15em;
+  line-height: 1.6em;
+  color: #cdd0d7;
+  text-align: left;
+  padding-right: 40%;
+}
+.descriptionWrapper {
+  display: block;
+  min-height: 300px;
+  text-align: center;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.highlight {
+  color: #ffba49;
+}
+.boldedword{
+  font-weight: 700;
+}
+@media only screen and (min-width: 2500px) {
+  .descriptionWrapper {
+    padding-right: 40%;
+  }
+}
+@media only screen and (min-width: 1920px) {
+
+}
+@media only screen and (max-width: 1366px) {
+
+}
+@media only screen and (max-width: 1024px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 576px) {
+  .descriptionWrapper {
+    width: 100%;
+    margin-bottom: 0px;
+  }
+  .descriptionContainer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 150px;
+    padding-bottom: 500px;
+  }
+  .description {
+    font-size: 1em;
+    line-height: 1.5em;
+    padding-right: 0%;
+  }
+}

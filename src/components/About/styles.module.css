@@ -1,0 +1,120 @@
+.wrapper {
+  height: 100vh;
+  position: relative;
+  background-image: url(../..//images/background/Bio_DesktopMobile.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% bottom;
+  background-attachment: scroll;
+}
+@media only screen and (max-width: 1400px) {
+  .wrapper {
+    background-image: url(../..//images/background/Bio_DesktopMobile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% bottom;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .wrapper {
+    background-image: url(../..//images/background/Bio_DesktopMobile.jpg);
+    background-size: cover;
+    background-position: 50% bottom;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    background-image: url(../..//images/background/Bio_DesktopMobile.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% bottom;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .wrapper {
+    height: 95vh;
+    background-image: url(../..//images/background/Bio_DesktopMobile.jpg);
+    position: relative;
+    background-size: 240%;
+    background-repeat: no-repeat;
+    background-position: 50% bottom;
+    background-attachment: scroll;
+  }
+}
+.details {
+  width: 330px;
+  height: 150px;
+  top: 75%;
+  left: 50%;
+  margin-left:-165px;
+  position: relative;
+}
+.details.hide {
+  opacity: 0;
+}
+.LogoCard {
+  width: 330px;
+}
+@media only screen and (max-width: 1920px) {
+  .details {
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .details {
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .details {
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .details {
+  }
+}
+@media only screen and (max-width: 750px) {
+  .details {
+    bottom:62%;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .details {
+    width: 250px;
+    height: 150px;
+    top: 30%;
+    left: 50%;
+    margin-left:-125px;
+    position: relative;
+  }
+}
+.logoWrapper {
+}
+.backtopTop {
+  position: fixed;
+  top: 95vh;
+  right: 20px;
+  z-index: 2;
+  cursor: pointer;
+  width: 34.75px;
+}
+.socialContainer {
+  width: 190px;
+  top: 24px;
+  right:0px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+}
+.socialContainer a{
+  margin-right: 0px;
+}
+.socialIcon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+@media screen and (min-width: 1200px) {
+  .socialContainer {
+    display: none;
+  }
+}

@@ -1,0 +1,20 @@
+.socialContainer {
+  display: block;
+  gap: 12px;
+  margin-top: 10px;
+}
+.socialIcon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+@media only screen and (max-width: 575px) {
+  .socialContainer {
+    gap: 6px;
+  }
+  .socialIcon {
+    width: 25px;
+    height: 25px;
+  }
+}

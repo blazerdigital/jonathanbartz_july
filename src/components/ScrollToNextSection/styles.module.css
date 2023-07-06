@@ -1,0 +1,14 @@
+.arrow {
+  width: 20px;
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%) rotate(-90deg);
+  display: block;
+  cursor: pointer;
+}
+@media only screen and (max-width: 520px) {
+  .arrow {
+    width: 22px;
+  }
+}

@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  background-color: #1d242a;
+  padding: 40px 20px;
+  padding-top: 60px;
+  background-image: url("../../images/background/footerbackground.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right;
+  background-attachment: fixed;
+}
+.owner {
+  width: 150px;
+  height: 150px;
+  display: block;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+}
+.text {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  text-align: center;
+  letter-spacing: 0.5px;
+  /* identical to box height */
+
+  color: #cdd0d7;
+}
+@media only screen and (max-width: 991px) {
+  .owner {
+    width: 125px;
+    height: 125px;
+  }
+  .text {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 520px) {
+  .text {
+    font-size: 0.8em;
+  }
+}

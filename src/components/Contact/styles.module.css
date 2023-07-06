@@ -1,0 +1,216 @@
+.wrapper {
+  min-height: 96vh;
+  height: 96%;
+  background-color: #12020c;
+  position: relative;
+  background-image: url("../../images/background/Contact_Desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media only screen and (max-width: 575px) {
+  .wrapper {
+    background-image: url("../../images/background/Contact_Mobile.jpg");
+    background-repeat: no-repeat;
+    background-size:190%;
+    background-position: 60% bottom;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-attachment: scroll;
+  }
+}
+.contactDetails {
+  max-width: 600px;
+  width: 100%;
+  padding-top: 100px;
+  padding-left: 10%;
+  padding-bottom: 50px;
+  margin-top: 20px;
+}
+.title {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2em;
+  color: #cdd0d8;
+  padding-bottom: 12px;
+}
+@media only screen and (max-width: 576px) {
+  .title {
+    font-size: 1.5em;
+  }
+}
+.textContainer {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.text {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #cdd0d7;
+}
+.link{
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: #cdd0d7;
+  text-decoration: none;
+}
+.pividiotext{
+  font-family: "DM Sans", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  font-style: normal;
+  font-weight: 400;
+  color: #cdd0d7;
+}
+@media only screen and (max-width: 576px) {
+  .text {
+    font-size: 1em;
+  }
+  .pividiotext{
+    padding-right: 55%;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-size: 0.85em;
+    font-weight: 400;
+    color: #cdd0d7;
+  }
+}
+.hightLight {
+  color: #ffba49;
+}
+@media only screen and (max-width: 576px) {
+  .socialContainer {
+    padding-top: 45px;
+    padding-bottom: 45px;
+  }
+}
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 20px;
+  gap: 15px;
+  padding-top: 15px;
+}
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.emailContainer,
+.phoneContainer {
+  max-width: 377.77px;
+}
+.label {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 2em;
+  color: #ffba49;
+  padding-bottom: 3px;
+}
+.input {
+  font-family: "DM Sans", sans-serif;
+  font-size: 1em;
+  background-color: transparent;
+  border: 0.1px solid rgba(205, 208, 216, 0.8);
+  outline: none;
+  padding: 5px 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 125%;
+  color: #ffba49;
+  box-shadow: 0 0 0 rgba(255, 186, 73, 0);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.input:focus {
+  border-color: #cdd0d7;
+  box-shadow: 0 0 5px rgba(205, 208, 216, 1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.notification{
+  font-family: "DM Sans", sans-serif;
+  font-size: 1em;
+  color: #ffba49;
+  margin-top:1em;
+}
+.textArea {
+  height: 191px;
+  width: 100%;
+}
+.button {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 125%;
+  color: #000000;
+  background: #ffba49;
+  padding: 6px 45px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.info {
+  padding-top: 70px;
+  max-width: 360px;
+  width: 100%;
+}
+.tagline {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 120%;
+  color: #cdd0d8;
+  padding-bottom: 12px;
+}
+@media only screen and (max-width: 991px) {
+  .contactDetails {
+    padding-left: 60px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .contactDetails {
+    padding: 0 45px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .inputWrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+  .phoneContainer,
+  .emailContainer {
+    max-width: auto;
+    width: 100%;
+  }
+  .tagline {
+    font-size: 28px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  .contactDetails {
+    padding-left: 35px;
+    padding-right: 35px;
+  }
+}

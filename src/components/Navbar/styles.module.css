@@ -1,0 +1,106 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+.activeBg {
+  background-color:rgba(33, 43, 53, 0.98);;
+  -moz-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+  -webkit-transition: all .5s ease-in;
+  transition: all .5s ease-in;
+}
+.socialContainer {
+  display: flex;
+  position: absolute;
+  width: 220px;
+  top: 12px;
+  right:0px;
+  height: 100%;
+  margin-right: 20px;
+}
+.socialContainer a{
+  margin-right: 0px;
+}
+.socialIcon {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+@media screen and (max-width: 1200px) {
+  .socialContainer {
+    display: none;
+  }
+}
+.navItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 55px;
+  padding: 30px 15px;
+}
+.navItem {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 125%;
+  color: #cdd0d7;
+  letter-spacing:0.5px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.active {
+  color: #ffba49;
+}
+.close,
+.hamburger {
+  position: fixed;
+  right: 30px;
+  top: 30px;
+  width: 30px;
+  height: 32px;
+  z-index: 6;
+  cursor: pointer;
+  display: none;
+}
+.hamburger {
+  width: 30px;
+}
+.close {
+  background-image: url("../../images/hamburgerclose.svg");
+  background-repeat: no-repeat;
+  background-size: 130%;
+  right: 30px;
+  top: 30px;
+}
+@media only screen and (max-width: 767px) {
+  .navbar {
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+    transform: translateX(150%);
+    background-color: #1d242a;
+    height: 100%;
+    width: 240px;
+    min-height: 100vh;
+    transition: 0.5s ease;
+  }
+  .navItems {
+    width: 100%;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 90px;
+  }
+  .sidebar {
+    transform: translate(0);
+
+    transition: 0.5s ease;
+  }
+  .close,
+  .hamburger {
+    display: block;
+  }
+}

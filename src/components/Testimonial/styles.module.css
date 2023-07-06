@@ -1,0 +1,102 @@
+.wrapper {
+  height: 100vh;
+  position: relative;
+  background-image: url(../..//images/background/Testimonial_DesktopMobile.jpg);
+  background-repeat: no-repeat;
+  background-position: 48% bottom;
+  background-size:cover;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  height: 100%;
+  display: block;
+}
+.mySlider {
+  position: absolute;
+  width: 100%;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 900px;
+}
+.descriptionContainer {
+  max-width: 620px;
+  margin: 0 auto;
+}
+.nameAndPostion {
+  padding-top: 40px;
+}
+.description,
+.position,
+.name {
+  font-family: "DM Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.15em;
+  line-height: 1.6em;
+  color: #cdd0d7;
+  text-align: center;
+}
+.name {
+  color: #ffba49;
+}
+.position {
+  line-height: 1em;
+}
+.swiperButtonPrev,
+.swiperButtonNext {
+  color: #cdd0d7;
+  top: 35%;
+}
+
+@media only screen and (max-width: 767px) {
+  .mySlider {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    top: 30px;
+  }
+  .descriptionContainer {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .nameAndPostion {
+    padding-top: 30px;
+  }
+  .description,
+  .position,
+  .name {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .mySlider {
+    padding-top: 0px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .descriptionContainer {
+    padding: 50px 50px;
+  }
+  .swiperButtonPrev::after,
+  .swiperButtonNext::after {
+    font-size: 28px;
+  }
+  .description,
+  .position,
+  .name {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .nameAndPostion {
+    padding-top: 10px;
+  }
+}
