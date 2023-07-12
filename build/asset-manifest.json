@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.27971a16.css",
-    "main.js": "/static/js/main.66f64553.js",
+    "main.js": "/static/js/main.f9753dd6.js",
     "static/js/787.45a6c703.chunk.js": "/static/js/787.45a6c703.chunk.js",
     "static/media/Bio_AlphaChannel.png": "/static/media/Bio_AlphaChannel.86ee2ff48256b9cb9f1d.png",
     "static/media/Testimonial_DesktopMobile.jpg": "/static/media/Testimonial_DesktopMobile.9315ba5ac467f279a994.jpg",
@@ -23,8 +23,8 @@
     "static/media/Marriage_Story.jpg": "/static/media/Marriage_Story.e28d024129a0cc8af291.jpg",
     "static/media/Doctor_Sleep.jpg": "/static/media/Doctor_Sleep.90a77f4a90e9efb4e5b3.jpg",
     "static/media/DialofDestiny.jpg": "/static/media/DialofDestiny.d05688a81d1255217b51.jpg",
+    "static/media/LogoCard.svg": "/static/media/LogoCard.33dee0a96bb09b7f0108b2a650b4e7b0.svg",
     "static/media/ListenOnSpotify.svg": "/static/media/ListenOnSpotify.704b74119fcc500407ad7c0c294d3a56.svg",
-    "static/media/LogoCard.svg": "/static/media/LogoCard.bbb1be92ca50b8eb8c33fdef3a4b5816.svg",
     "static/media/ListenonSoundCloud.svg": "/static/media/ListenonSoundCloud.f7b08eb73e951caf91be53364b0ea7cd.svg",
     "static/media/collaborationSide.svg": "/static/media/collaborationSide.92f422819f9f8d845ae9d6d7d47f1c10.svg",
     "static/media/Also_AppleMusic.svg": "/static/media/Also_AppleMusic.758e75135a7740bb9ae8c2de2986460e.svg",
@@ -44,11 +44,11 @@
     "static/media/Facebook.svg": "/static/media/Facebook.c79406662ece570f050618798b7e9e3c.svg",
     "static/media/arrow.svg": "/static/media/arrow.08b191bed2f8189f27d4fde34cfd62de.svg",
     "main.27971a16.css.map": "/static/css/main.27971a16.css.map",
-    "main.66f64553.js.map": "/static/js/main.66f64553.js.map",
+    "main.f9753dd6.js.map": "/static/js/main.f9753dd6.js.map",
     "787.45a6c703.chunk.js.map": "/static/js/787.45a6c703.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.27971a16.css",
-    "static/js/main.66f64553.js"
+    "static/js/main.f9753dd6.js"
   ]
 }
